@@ -2,7 +2,7 @@ var swiper = new Swiper(".slide-content", {
     slidesPerView: 3,
     spaceBetween: 20,
     slidesPerGroup: 3,
-    loop: true,
+    loop:true,
     centerSlide: 'true',
     transitionDuration: 500,
     speed:1500,
@@ -30,8 +30,11 @@ var swiper = new Swiper(".slide-content", {
       },
       950: {
         slidesPerView: 3,
-  
-        spaceBetween: 20, 
+        slidesPerGroup:3,
+       
     }
     }
+
+    
   });
+
